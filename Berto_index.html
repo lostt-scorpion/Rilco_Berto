@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+        .box{
+            box-sizing: content-box;
+            display: inline-block;
+            margin: 4rem;
+            padding: 50px;
+            width: fit-content;
+            block-size: fit-content;
+        }
+
+        #header{
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: #067058;
+            z-index: 999;
+            position:absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            display: flex;
+            align-content: flex;
+            height: 1.5rem;
+        }
+
+        .logo{
+        background-image: url("fe.png");
+        display:flex;
+        float: left;
+        padding-left: 2%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
+        width:max-content;
+        height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="header">
+        <div id="navbar" >
+            <img src="fe.png" alt="fe_logo" class="logo">
+        </div>
+    </section>
+
+    </header>
+    <div class="box">
+     <iframe title="Report Section" width="1000" height="600" src="https://app.powerbi.com/reportEmbed?reportId=8b538207-3880-457f-a8df-90ec0609a948&autoAuth=true&ctid=ef4c6112-56d6-4acd-ac85-e96c56cef394&filterPaneEnabled=false" frameborder="0" allowFullScreen="true" ></iframe>
+    </div>
+
+    
+        
+</body>
+</html>
